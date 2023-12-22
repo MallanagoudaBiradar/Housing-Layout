@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+
+*{
+  color: #0ef;
+  font-size:25px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+h2{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+  font-size: 48px;
+  color: #0ef;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.setBox{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center !important;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+label{
+  margin-left: 50px;
+  color: #0ef;
+  font-weight: 900;
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  margin-left: 20px;
+  color: #0ef;
+  font-size: 20px !important;
+  background: none !important;
+  border: 2px solid #0ef;
+  border-radius: 8px;
+  margin-left: 5px;
 }
+
+
+
+
+select {
+  background: none !important;
+  outline: none !important;
+  border: 2px solid #0ef !important;
+  width: 150px;
+  cursor: pointer;
+  height: 80px;
+
+}
+
+
+select:hover{
+  box-shadow: 10px 10px 0px #0ef;
+      top: 5px;
+      left: -5px;
+}
+
+.setlayout{
+ padding-left: 459px;
+ padding-top: 35px;
+}
+
+
+.layout-controls {
+  margin-bottom: 10px;
+}
+
+option{
+  font-size: 20px;
+}
+
+button{
+  background: none !important;
+  outline: none !important;
+  border: 2px solid #0ef !important;
+  margin-top: 50px;
+  width: 235px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #0ef;
+  font-weight: bolder;
+  height: 50px;
+  margin-left: 50px;
+}
+
+button:hover{
+  background-color: #0ef;
+  box-shadow:0 0 #0ef,0 0 25px #0ef, 0 0 50px #0ef,0 0 200px #0ef;
+}
+
+
+h3{
+  color: #0ef;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
