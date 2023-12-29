@@ -1,0 +1,15 @@
+Welcome to the Housing Layout interface:
+
+1.Please begin by configuring the layout based on your preferences for rows and columns by entering the respective values.
+
+2.Once configured, you will be presented with an interface corresponding to the specified rows and columns.
+
+3.Assign each plot in the layout with one of the following options:
+a. House
+b. Restaurant
+c. Gym
+d. Hospital
+
+4.Utilize the UI button to receive recommendations for the optimal house selection.
+
+                                                Thank you for using the Housing Layout system. If you have any further questions or need assistance, feel free to ask.
