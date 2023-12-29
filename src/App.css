@@ -1,88 +1,73 @@
-
-*{
+* {
   color: #0ef;
-  font-size:25px;
+  font-size: 25px;
   font-weight: bold;
 }
 
-body{
+body {
   background-color: black;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-h2{
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- text-align: center;
+h2 u {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
   font-size: 48px;
   color: #0ef;
+  margin-left: 580px;
 }
 
-.setBox{
+.setBox {
   display: flex;
   justify-content: center !important;
-  
-  
 }
 
-label{
+label {
   margin-left: 50px;
   color: #0ef;
   font-weight: 900;
-  
-  
 }
 
-input{
-  margin-left: 20px;
+input {
   color: #0ef;
   font-size: 20px !important;
   background: none !important;
   border: 2px solid #0ef;
   border-radius: 8px;
   margin-left: 5px;
+  height: 40px;
+  width: 100px;
 }
-
-
-
 
 select {
   background: none !important;
   outline: none !important;
   border: 2px solid #0ef !important;
-  width: 150px;
+  width: 260px;
   cursor: pointer;
   height: 80px;
-
 }
 
-
-select:hover{
+select:hover {
   box-shadow: 10px 10px 0px #0ef;
-      top: 5px;
-      left: -5px;
+  top: 5px;
+  left: -5px;
 }
-
-.setlayout{
- padding-left: 459px;
- padding-top: 35px;
-}
-
 
 .layout-controls {
   margin-bottom: 10px;
 }
 
-option{
+option {
   font-size: 20px;
 }
 
-button{
+button {
   background: none !important;
   outline: none !important;
   border: 2px solid #0ef !important;
   margin-top: 50px;
-  width: 235px;
+  width: 305px;
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
@@ -92,16 +77,30 @@ button{
   margin-left: 50px;
 }
 
-button:hover{
+button:hover {
   background-color: #0ef;
-  box-shadow:0 0 #0ef,0 0 25px #0ef, 0 0 50px #0ef,0 0 200px #0ef;
+  box-shadow: 0 0 #0ef, 0 0 25px #0ef, 0 0 50px #0ef, 0 0 200px #0ef;
 }
 
+.setlayout {
+  padding-left: 150px;
+  padding-top: 50px;
+}
 
-h3{
+h3 {
   color: #0ef;
   margin-left: 50px;
   font-size: 20px;
   font-weight: bolder;
 }
 
+.setBox button {
+  margin-top: 4px;
+}
+
+h4 {
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
